@@ -1,4 +1,8 @@
-![Cinco especialidades de desarrollo: exploración, revisión, pruebas, arquitectura y documentación conectadas a un servidor MCP](.github/assets/readme-header.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/readme-header-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset=".github/assets/readme-header.png">
+  <img alt="Cinco especialidades de desarrollo: exploración, revisión, pruebas, arquitectura y documentación conectadas a un servidor MCP" src=".github/assets/readme-header.png" width="100%">
+</picture>
 
 # vtex-io-agents
 
