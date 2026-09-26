@@ -1,3 +1,5 @@
+![Cinco especialidades de desarrollo: exploración, revisión, pruebas, arquitectura y documentación conectadas a un servidor MCP](.github/assets/readme-header.png)
+
 # vtex-io-agents
 
 **Cinco subagentes de Claude Code para VTEX IO y el servidor MCP `vtex-io-mcp`, en un solo plugin. Los agentes
@@ -122,6 +124,12 @@ scripts/probar-mcp.mjs                arranca el servidor MCP y comprueba las he
 ```
 
 ## Desarrollo
+
+Para desarrollar este repositorio se requiere **Node >= 20**, según
+[package.json](package.json). El requisito de Node >= 18 indicado arriba corresponde
+a ejecutar el servidor MCP. Las definiciones de los cinco agentes viven en
+[plugins/vtex-io-agents/agents/](plugins/vtex-io-agents/agents/) y su conexión MCP en
+[.mcp.json](plugins/vtex-io-agents/.mcp.json).
 
 ```bash
 git clone https://github.com/zeluizr/vtex-io-agents.git
