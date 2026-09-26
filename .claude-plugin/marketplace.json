@@ -1,0 +1,28 @@
+{
+	"$schema": "https://code.claude.com/schemas/marketplace.json",
+	"name": "vtex-io-agents",
+	"owner": {
+		"name": "José Luiz Rodrigues",
+		"url": "https://github.com/zeluizr"
+	},
+	"description": "Subagentes de Claude Code para VTEX IO, con el servidor MCP vtex-io-mcp incluido y construidos sobre las skills oficiales de VTEX.",
+	"version": "0.2.0",
+	"metadata": {
+		"pluginRoot": "./plugins"
+	},
+	"plugins": [
+		{
+			"name": "vtex-io-agents",
+			"source": "vtex-io-agents",
+			"displayName": "VTEX IO Agents",
+			"description": "Cinco subagentes para VTEX IO (exploración, revisión previa al publish, QA, arquitectura de integraciones y documentación) más el servidor MCP vtex-io-mcp: scaffolding, props de blocks y documentación de VTEX sin salir del editor.",
+			"version": "0.2.0",
+			"author": { "name": "José Luiz Rodrigues", "url": "https://github.com/zeluizr" },
+			"homepage": "https://github.com/zeluizr/vtex-io-agents",
+			"repository": "https://github.com/zeluizr/vtex-io-agents",
+			"license": "MIT",
+			"category": "development",
+			"keywords": ["vtex", "vtex-io", "store-framework", "ecommerce", "subagents", "mcp", "latam"]
+		}
+	]
+}
